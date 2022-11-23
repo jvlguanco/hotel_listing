@@ -1,0 +1,29 @@
+.home {
+  display: flex;
+
+  .homeContainer {
+    flex: 6;
+
+    .listContainer{
+      text-align: center;
+
+      h1{
+        font-size: 3rem;
+        font-weight: 600;
+        margin-bottom: 1rem;
+        margin-top: 4rem;
+      }
+
+      .hList{
+        margin-top: 4rem;
+        span{
+          color: #6439ff;
+          font-size: 1.5rem;
+          margin-right: 2.5rem;
+          margin-left: 2.5rem;
+        }
+      }
+    }
+  }
+
+}

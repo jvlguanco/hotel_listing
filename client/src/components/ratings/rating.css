@@ -1,0 +1,28 @@
+.rating{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.rStar{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.rRadio{
+    display: none;
+}
+
+.rBtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: #FF731D;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
